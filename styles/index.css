@@ -15,6 +15,10 @@
   padding: 21px 40px 16px;
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
+
 body {
   margin: 15px;
   width: 100%;
@@ -61,7 +65,7 @@ a {
   line-height: 26px;
   letter-spacing: 4.8px;
   text-transform: uppercase;
-  margin-top: 67px;
+  margin-top: 32vh;
 }
 .header-container .text-container h4 {
   font-style: normal;
@@ -78,10 +82,13 @@ a {
 }
 .header-container .search-container form {
   width: 100%;
+  height: 40px;
+  display: flex;
 }
 .header-container .search-container input {
   width: 503px;
-  height: 40px;
+  max-height: 40px;
+  height: 100%;
   background: #FFFFFF;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
@@ -90,16 +97,21 @@ a {
   font-size: 14px;
   letter-spacing: 2.8px;
   color: #999999;
+  border: none;
+  padding: 0;
 }
 .header-container .search-container button {
   max-width: 153px;
   width: 100%;
-  height: 40px;
+  height: 100%;
   border: 2px solid #FFFFFF;
-  box-sizing: border-box;
   padding: 0;
   background-color: #5474FD !important;
   background-image: none;
+}
+.header-container .search-container button:hover {
+  transform: none;
+  color: #bebebe;
 }
 .header-container .scroll-container {
   text-align: center;
@@ -389,6 +401,9 @@ a {
 }
 .footer__links i {
   padding: 5px;
+}
+.footer__links i:hover {
+  color: #5474FD;
 }
 
 .footer-container {
