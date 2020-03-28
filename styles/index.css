@@ -1,13 +1,16 @@
 .button {
   font-family: "Aleo", serif;
-  background: #5474FD;
+  background-image: url("../images/buttonbg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #E8E8E8;
   border: none;
   padding: 21px 40px 16px;
 }
@@ -16,12 +19,12 @@ body {
   margin: 15px;
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
-  color: #FFFFFF;
+  color: #E8E8E8;
 }
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #E8E8E8;
 }
 
 .section {
@@ -44,6 +47,7 @@ a {
 .header-container {
   max-width: 660px;
   width: 100%;
+  color: white;
 }
 .header-container .text-container {
   text-align: center;
@@ -92,6 +96,8 @@ a {
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   padding: 0;
+  background-color: #5474FD !important;
+  background-image: none;
 }
 .header-container .scroll-container {
   text-align: center;
@@ -113,6 +119,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 .nav .nav-container .logo {
   font-style: normal;
@@ -187,5 +194,92 @@ a {
   position: relative;
   right: 60px;
   margin-bottom: 10px;
+}
+
+.flow {
+  width: 100%;
+  height: 340px;
+  background: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flow-container {
+  max-width: 1120px;
+  width: 100%;
+}
+.flow-container img {
+  width: 100%;
+}
+
+.architecture {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/house.png");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__content {
+  max-width: 543px;
+  width: 100%;
+  background: rgba(35, 35, 35, 0.9);
+  mix-blend-mode: normal;
+  padding: 50px 32px;
+}
+.container__content h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+.container__content h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 23px;
+}
+.container__content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 13px;
+  margin-bottom: 46px;
+}
+
+.container__empty {
+  max-width: 543px;
+  width: 100%;
+  min-height: 374px;
+}
+
+.shoreline {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/shoreline.png");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*# sourceMappingURL=index.css.map */

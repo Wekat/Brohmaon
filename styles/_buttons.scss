@@ -1,6 +1,9 @@
 %btn {
     font-family: $secondaryFont;
-    background: #5474FD;
+    background-image: url("../images/buttonbg.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
