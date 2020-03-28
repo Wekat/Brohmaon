@@ -8,6 +8,7 @@ body {
     width: 100%;
     font-family: $mainFont;
     color: $fontColor;
+    box-sizing: border-box;
 }
 
 a {
@@ -27,6 +28,7 @@ a {
     background-image: url("../images/Header.png");
     background-position: center;
     background-size: cover;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +146,7 @@ a {
     background-image: url(../images/whyUs.png);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
     display: flex;
     justify-content: center;
 }
@@ -293,4 +296,128 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.recomendations {
+    width: 100%;
+    min-height: 731px;
+    background-image: url("../images/recommendationsbg.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        max-width: 1120px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h2 {
+            font-family: $secondaryFont;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-bottom: 11vh;
+        }
+    }
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    min-height: 244px;
+
+    &__img {
+        max-width: 445px;
+        width: 100%;
+        min-height: 244px;
+        height: 100%;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__txt {
+        text-align: left;
+        background: #333333;
+        padding: 49px 25px 39px 62px;
+        max-height: 284px;
+        height: 100%;
+
+        & h3 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FEFEFE;
+        }
+
+        & i {
+            color: #5474FD;
+            padding-right: 10px;
+        }
+
+        & p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 271px;
+    background: #232323;
+    display: flex;
+    justify-content: center;
+
+    &__txt {
+        text-align: center;
+
+        & h5 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 26px;
+            letter-spacing: 3.36px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        & p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 1.6px;
+            color: #FFFFFF;
+            margin-top: 9px;
+        }
+    }
+
+    &__links {
+        text-align: center;
+        margin-top: 29px;
+
+        & i {
+            padding: 5px;
+        }
+    }
+}
+
+.footer-container {
+    margin-top: 120px;
+    margin-bottom: 50vh;
 }
