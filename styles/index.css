@@ -1,2 +1,97 @@
+.header-container .search-container button {
+  font-family: "Aleo", serif;
+  background: #5474FD;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
 
+body {
+  margin: 15px;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  max-width: 1770px;
+  width: 100%;
+}
+
+.header {
+  height: 100vh;
+}
+
+.header-wrapper {
+  width: 100%;
+  max-height: 737px;
+  height: 100%;
+  background-image: url("../images/Header.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  max-width: 660px;
+  width: 100%;
+}
+.header-container .text-container {
+  text-align: center;
+}
+.header-container .text-container h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.header-container .text-container h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  margin-top: 11px;
+}
+.header-container .search-container {
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+}
+.header-container .search-container form {
+  width: 100%;
+}
+.header-container .search-container input {
+  width: 503px;
+  height: 40px;
+  background: #FFFFFF;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #999999;
+}
+.header-container .search-container button {
+  max-width: 153px;
+  width: 100%;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+}
+.header-container .scroll-container {
+  text-align: center;
+}
 /*# sourceMappingURL=index.css.map */
