@@ -7,4 +7,11 @@
     line-height: 26px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+    color: $fontColor;
+    border: none;
+    padding: 21px 40px 16px;
+}
+
+.button {
+    @extend %btn;
 }

@@ -1,4 +1,4 @@
-.header-container .search-container button {
+.button {
   font-family: "Aleo", serif;
   background: #5474FD;
   font-style: normal;
@@ -7,6 +7,9 @@
   line-height: 26px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  padding: 21px 40px 16px;
 }
 
 body {
@@ -18,15 +21,12 @@ body {
 
 a {
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .section {
   max-width: 1770px;
   width: 100%;
-}
-
-.header {
-  height: 100vh;
 }
 
 .header-wrapper {
@@ -55,6 +55,7 @@ a {
   line-height: 26px;
   letter-spacing: 4.8px;
   text-transform: uppercase;
+  margin-top: 67px;
 }
 .header-container .text-container h4 {
   font-style: normal;
@@ -90,8 +91,101 @@ a {
   height: 40px;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
+  padding: 0;
 }
 .header-container .scroll-container {
   text-align: center;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+.nav {
+  width: 100%;
+  height: 83px;
+  background-color: #5474FD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav .nav-container {
+  max-width: 1120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav-container .logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.nav .nav-container .nav-links ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav .nav-container .nav-links ul a {
+  margin-left: 20px;
+  font-family: "Aleo", serif;
+}
+
+.choose {
+  background-image: url(../images/whyUs.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.choose-container {
+  max-width: 1120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 14vh;
+  margin-bottom: 14vh;
+}
+
+.section_left {
+  max-width: 560px;
+  width: 100%;
+}
+.section_left h2 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+}
+.section_left p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+.section_left p:first-of-type {
+  margin-top: 50px;
+}
+.section_left p:last-of-type {
+  margin-bottom: 45px;
+}
+
+.section_right {
+  max-width: 350px;
+  width: 100%;
+}
+.section_right img {
+  width: 350px;
+  height: 220px;
+}
+.section_right img:first-of-type {
+  position: relative;
+  right: 60px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=index.css.map */
